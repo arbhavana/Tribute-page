@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Page Sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+section p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* Quotes */
+blockquote {
+    font-style: italic;
+    margin: 15px 0;
+    padding-left: 20px;
+    border-left: 3px solid #333;
+    font-size: 20px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
